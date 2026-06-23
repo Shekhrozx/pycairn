@@ -1,12 +1,12 @@
 [project]
 name = "pycairn"
-version = "0.0.1"
-description = "A simple and lightweight pipeline manifest writer tool for Python."
+version = "0.0.2"
+description = "A simple and lightweight pipeline manifest writer tool."
 readme = "README.md"
 authors = [
-    { name = "Shekhrozx", email = "shekhrozx@gmail.com" }
+    { name = "Bryan", email = "shekhrozx@gmail.com" }
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "pydantic>=2.13.4",
 ]
