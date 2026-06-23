@@ -1,0 +1,26 @@
+[project]
+name = "pycairn"
+version = "0.0.1"
+description = "A simple and lightweight pipeline manifest writer tool for Python."
+readme = "README.md"
+authors = [
+    { name = "Shekhrozx", email = "shekhrozx@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.13.4",
+]
+
+[[tool.mypy.overrides]]
+module = "pycairn"
+ignore_missing_imports = true
+
+[build-system]
+requires = ["uv_build>=0.11.6,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+test = [
+    "pytest>=9.1.1",
+]
+
